@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Background color Change to Random on click button</title>
+    </head>
+    <body>
+        <input
+            type="text"
+            name=""
+            id="input"
+            placeholder="chaning background color to random" />
+        <button id="btn">hit button to see magic</button>
+    </body>
+</html>
+<script>
+    let input = document.getElementById("input");
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", handleClick);
+
+    function handleClick() {
+        let red = Math.floor(Math.random() * 256);
+        let green = Math.floor(Math.random() * 256);
+        let blue = Math.floor(Math.random() * 256);
+        let Hex =
+            "#" + red.toString(16) + green.toString(16) + blue.toString(16);
+        input.style.backgroundColor = Hex;
+    }
+</script>

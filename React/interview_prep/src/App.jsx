@@ -3,6 +3,7 @@ import BGChange from "./Components/BGChange";
 import Counter from "./Components/Counter";
 import DbMap from "./Components/DbMap";
 import RandomNum from "./Components/RandomNum";
+import { Todo } from "./Components/Todo.jsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <BGChange />
             <RandomNum />
             <DbMap />
+            <Todo />
         </div>
     );
 }

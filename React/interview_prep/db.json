@@ -20,5 +20,31 @@
       "age": "99",
       "location": "Vrindavan"
     }
+  ],
+  "todos": [
+    {
+      "name": "ram",
+      "id": 1
+    },
+    {
+      "name": "shayam",
+      "id": 2
+    },
+    {
+      "name": "sita",
+      "id": 3
+    },
+    {
+      "name": "laxman",
+      "id": 4
+    },
+    {
+      "name": "Riya Ji",
+      "id": 5
+    },
+    {
+      "name": "Shantanu Ji",
+      "id": 6
+    }
   ]
 }
