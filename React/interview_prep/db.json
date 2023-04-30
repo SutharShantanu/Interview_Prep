@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Ram",
+      "age": "99",
+      "location": "Ayodhya"
+    },
+    {
+      "name": "Sita",
+      "age": "99",
+      "location": "Ayodhya"
+    },
+    {
+      "name": "Krishna",
+      "age": "99",
+      "location": "Vrindavan"
+    },
+    {
+      "name": "Radha",
+      "age": "99",
+      "location": "Vrindavan"
+    }
+  ]
+}
