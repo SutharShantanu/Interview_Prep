@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-export const Todo = () => {
+const Todo = () => {
     const [title, setTitle] = useState("");
     const [data, setData] = useState([]);
 
@@ -136,3 +136,5 @@ export const Todo = () => {
         </div>
     );
 };
+
+export default Todo;
