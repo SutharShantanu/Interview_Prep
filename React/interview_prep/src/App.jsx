@@ -6,6 +6,11 @@ import RandomNum from "./Components/RandomNum";
 import Todo from "./Components/Todo";
 
 function App() {
+    let obj={
+        name:"Ram",
+    }
+    obj.hasOwnPropery(name);
+
     return (
         <div className="App">
             <Counter />
